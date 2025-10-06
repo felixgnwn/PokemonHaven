@@ -1,0 +1,9 @@
+function PokeDex() {
+    return (
+        <>
+            <h1>PokeDex</h1>
+        </>
+    )
+}
+  
+export default PokeDex
