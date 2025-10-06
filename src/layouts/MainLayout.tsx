@@ -7,8 +7,7 @@ export default function MainLayout() {
     <div>
       <Navbar />
 
-      {/* This is where page content gets rendered */}
-      <main>
+      <main className="container mx-auto flex items-center justify-between py-5">
         <Outlet />
       </main>
     </div>
